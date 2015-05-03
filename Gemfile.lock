@@ -58,6 +58,8 @@ GEM
       warden (~> 1.2.3)
     erubis (2.7.0)
     execjs (2.5.2)
+    faker (1.1.2)
+      i18n (~> 0.5)
     hike (1.2.3)
     i18n (0.7.0)
     jmespath (1.0.2)
@@ -148,6 +150,7 @@ DEPENDENCIES
   bootstrap-sass (~> 2.2.2.0)
   coffee-rails (~> 3.2.1)
   devise
+  faker (= 1.1.2)
   jquery-rails
   paperclip (= 3.4.0)
   pg

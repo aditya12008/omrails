@@ -20,3 +20,9 @@ doc/
 .project
 .DS_Store #for mac systems
 .idea
+
+# Ignore Paperclip uploaded files
+/public/system
+
+# Ignore sampleimages for faker gem
+/sampleimages
