@@ -7,7 +7,7 @@ class PinsController < ApplicationController
   def index
     #if we want only our pins too see then
     # @pins = current_user.pins.all
-    @pins = Pin.order("created_at desc")
+    @pins = Pin.order("created_at desc").page(params[:page]).per_page(20)
     respond_with(@pins)
   end
 

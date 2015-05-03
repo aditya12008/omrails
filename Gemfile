@@ -7,6 +7,8 @@ gem 'simple_form'
 gem 'paperclip', '3.4.0'
 gem 'aws-sdk' # as Heroku deletes pics after some time so Amazon S3
 gem 'faker', '1.1.2'
+gem 'will_paginate'
+gem 'bootstrap-will_paginate'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'

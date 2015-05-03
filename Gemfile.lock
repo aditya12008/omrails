@@ -40,6 +40,8 @@ GEM
     bcrypt (3.1.10)
     bootstrap-sass (2.2.2.0)
       sass (~> 3.2)
+    bootstrap-will_paginate (0.0.10)
+      will_paginate
     builder (3.0.4)
     cocaine (0.4.2)
     coffee-rails (3.2.2)
@@ -141,6 +143,7 @@ GEM
       json (>= 1.8.0)
     warden (1.2.3)
       rack (>= 1.0)
+    will_paginate (3.0.7)
 
 PLATFORMS
   ruby
@@ -148,6 +151,7 @@ PLATFORMS
 DEPENDENCIES
   aws-sdk
   bootstrap-sass (~> 2.2.2.0)
+  bootstrap-will_paginate
   coffee-rails (~> 3.2.1)
   devise
   faker (= 1.1.2)
@@ -160,3 +164,4 @@ DEPENDENCIES
   simple_form
   sqlite3
   uglifier (>= 1.0.3)
+  will_paginate
