@@ -5,6 +5,7 @@ gem 'rails_12factor'
 gem 'devise'
 gem 'simple_form'
 gem 'paperclip', '3.4.0'
+gem 'aws-sdk' # as Heroku deletes pics after some time so Amazon S3
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
